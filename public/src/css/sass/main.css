@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+}
+
+header .header_container {
+  padding: 2rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(../../../images/header-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header .header_container .left_header {
+  width: 50%;
+  height: 100%;
+}
+
+header .header_container .left_header h2 {
+  color: black;
+  font-size: 3rem;
+}
+
+header .header_container .left_header h2 span {
+  font-size: 3rem;
+  color: coral;
+}
+
+header .header_container .left_header p {
+  font-size: .8rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+header .header_container .left_header a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: .8rem 1.5rem;
+  letter-spacing: .1rem;
+  border: .1rem solid tomato;
+  border-radius: .4rem;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+header .header_container .left_header a:hover {
+  letter-spacing: .2rem;
+  background: tomato;
+  color: white;
+}
+
+header .header_container .right_header {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header_container .right_header img {
+  width: 27rem;
+  height: 22rem;
+}
+
+.biography_section {
+  width: 100%;
+  height: 100%;
+  background: url(../../../images/biography-bg.png), rgba(255, 255, 255, 0.9);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.biography_section .bio_container {
+  padding: 2rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.biography_section .bio_container .bio_left {
+  width: 60%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.biography_section .bio_container .bio_left img {
+  width: 41rem;
+  height: 25rem;
+}
+
+.biography_section .bio_container .bio_right {
+  width: 50%;
+  height: 100%;
+}
+
+.biography_section .bio_container .bio_right h1 {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+}
+
+.biography_section .bio_container .bio_right p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: black;
+  font-size: .8rem;
+}
+
+.biography_section .bio_container .bio_right a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: .8rem 1.5rem;
+  letter-spacing: .1rem;
+  border: .1rem solid tomato;
+  border-radius: .4rem;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  color: black;
+}
+
+.biography_section .bio_container .bio_right a:hover {
+  background: tomato;
+  color: white;
+  letter-spacing: 2.5px;
+}
+
+.letest_work {
+  width: 100%;
+  height: 100%;
+  background: url(../../../images/latest-work-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.letest_work .work_container {
+  padding: 2rem 4rem;
+}
+
+.letest_work .work_container .work_title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 600;
+}
+
+.letest_work .work_container .work_content {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: cneter;
+      -ms-flex-align: cneter;
+          align-items: cneter;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem 0rem;
+}
+
+.letest_work .work_container .work_content .workboth {
+  width: 30%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.letest_work .work_container .work_content .workboth img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  background: url("../../../images/footer-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer .footer_section {
+  padding: 2rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer_section h2 {
+  margin: 2rem 0rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+footer .footer_section h3 {
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+footer .footer_section .footer_para {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+footer .footer_section .footer_para p {
+  font-size: .7rem;
+  margin: 2rem 0rem;
+  width: 40%;
+  text-align: center;
+}
+
+footer .footer_section .footer_email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(223, 17, 137, 0.856)), to(rgba(190, 25, 121, 0.856)));
+  background: linear-gradient(rgba(223, 17, 137, 0.856), rgba(190, 25, 121, 0.856));
+  padding: 2rem 6rem;
+  border-radius: .4rem;
+}
+
+footer .footer_section .footer_email h4 {
+  color: white;
+  margin-bottom: .5rem;
+  text-transform: capitalize;
+}
+
+footer .footer_section .footer_email h3 {
+  color: white;
+  font-size: 1rem;
+}
+
+footer .footer_last {
+  padding: 1rem 0rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+footer .footer_last p {
+  font-size: .6rem;
+  color: black;
+  text-transform: capitalize;
+}
+
+footer hr {
+  margin-bottom: .5rem;
+}
+
+@media (max-width: 774px) {
+  body {
+    overflow-x: hidden;
+  }
+  header .header_container {
+    padding: 2rem 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .header_container .left_header {
+    width: 100%;
+    height: 100%;
+  }
+  header .header_container .left_header h2 {
+    font-size: 1.5rem;
+  }
+  header .header_container .left_header h2 span {
+    font-size: 2rem;
+  }
+  header .header_container .left_header p {
+    font-size: .7rem;
+  }
+  header .header_container .left_header a {
+    padding: .4rem .8rem;
+    font-size: .8rem;
+  }
+  header .header_container .right_header {
+    padding: 1rem 0rem;
+    width: 100%;
+    height: 100%;
+  }
+  header .header_container .right_header img {
+    width: 90%;
+    height: 60%;
+  }
+  .biography_section .bio_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .biography_section .bio_container .bio_left {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    padding: 2rem 0rem;
+    width: 100%;
+    height: 100%;
+  }
+  .biography_section .bio_container .bio_left img {
+    width: 30rem;
+    height: 15rem;
+  }
+  .biography_section .bio_container .bio_right {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 100%;
+    height: 100%;
+  }
+  .biography_section .bio_container .bio_right h1 {
+    font-size: 1.2rem;
+  }
+  .biography_section .bio_container .bio_right p {
+    font-size: .7rem;
+  }
+  .biography_section .bio_container .bio_right a {
+    padding: .4rem .6rem;
+    font-size: .7rem;
+  }
+  .letest_work .work_container {
+    padding: 1rem 2rem;
+  }
+  .letest_work .work_container .work_title {
+    font-size: 1rem;
+  }
+  .letest_work .work_container .work_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .letest_work .work_container .work_content .workboth {
+    width: 100%;
+    height: inherit;
+    margin-bottom: 1rem;
+  }
+  footer .footer_section {
+    padding: 1rem 2rem;
+  }
+  footer .footer_section h2 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  footer .footer_section .footer_para P {
+    width: 100%;
+  }
+  footer .footer_section .footer_email {
+    padding: 2rem 4rem;
+  }
+  footer .footer_section .footer_email h3 {
+    font-size: .8rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+
+    .header_container{
+        padding: 2rem 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: url(../../../images/header-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        .left_header{
+            width: 50%;
+            height: 100%;
+            
+            h2{
+                color: black;
+                font-size: 3rem;
+
+                span{
+                    font-size: 3rem;
+                    color: coral;
+                }
+            }
+
+            p{
+                font-size: .8rem;
+                color: black;
+                margin-bottom: 2rem;
+            }
+
+            a{
+                text-transform: capitalize;
+                text-decoration: none;
+                color: black;
+                font-weight: 600;
+                font-size: 1rem;
+                padding: .8rem 1.5rem;
+                letter-spacing: .1rem;
+                border: .1rem solid tomato;
+                border-radius: .4rem;
+                transition: all .3s linear;
+
+                &:hover{
+                    letter-spacing: .2rem;
+                    background: tomato;
+                    color: white;
+                }
+            }
+        }
+
+        .right_header{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 27rem;
+                height: 22rem;
+            }
+        }
+    }
+}
+
+// biography section
+
+.biography_section{
+    width: 100%;
+    height: 100%;
+    background: url(../../../images/biography-bg.png),rgba(255,255,255,0.9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    .bio_container{
+        padding: 2rem 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        .bio_left{
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 41rem;
+                height: 25rem;
+            }
+        }
+
+        .bio_right{
+            width: 50%;
+            height: 100%;
+
+            h1{
+                font-size: 1.5rem;
+                color: black;
+                font-weight: 500;
+            }
+
+            p{
+                margin-top: 1rem;
+                margin-bottom: 2rem;
+                color: black;
+                font-size: .8rem;
+            }
+
+            a{
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 1rem;
+                padding: .8rem 1.5rem;
+                letter-spacing: .1rem;
+                border: .1rem solid tomato;
+                border-radius: .4rem;
+                transition: all .3s linear;
+                color: black;
+
+                &:hover{
+                    background: tomato;
+                    color: white;
+                    letter-spacing: 2.5px;
+                }
+            }
+        }
+    }
+}
+
+
+// letest work
+
+.letest_work{
+    width: 100%;
+    height: 100%;
+    background: url(../../../images/latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .work_container{
+        padding: 2rem 4rem;
+
+        .work_title{
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 1.5rem;
+            color: black;
+            font-weight: 600;
+        }
+        
+        .work_content{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: cneter;
+            flex-wrap: wrap;
+            padding: 2rem 0rem;
+
+            .workboth{
+                width: 30%;
+                height: 100%;
+                display: grid;
+                place-items: center;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+// footer section
+
+footer{
+    width: 100%;
+    height: 100%;
+    background: url('../../../images/footer-bg.png');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+
+    .footer_section{
+        padding: 2rem 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h2{
+            margin: 2rem 0rem;
+            font-size: 1.4rem;
+            text-transform: capitalize;
+        }
+
+        h3{
+            font-size: 1rem;
+            text-transform: capitalize;
+            font-weight: 400;
+        }
+        
+        .footer_para{
+            width: 100%;
+            height: 100%;
+            display: grid;
+            place-items: center;
+
+            p{
+                font-size: .7rem;
+                margin: 2rem 0rem;
+                width: 40%;
+                text-align: center;
+            }
+            
+        }
+
+        .footer_email{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: linear-gradient(rgba(223, 17, 137, 0.856),rgba(190, 25, 121, 0.856));
+            padding: 2rem 6rem;
+            border-radius: .4rem;
+
+            h4{
+                color: white;
+                margin-bottom: .5rem;
+                text-transform: capitalize;
+            }
+
+            h3{
+                color: white;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .footer_last{
+        padding: 1rem 0rem;
+        display: grid;
+        place-items: center;
+
+        p{
+            font-size: .6rem;
+            color: black;
+            text-transform: capitalize;
+        }
+    }
+
+    hr{
+        margin-bottom: .5rem;
+    }
+}
+
+
+// responsive setup
+
+@media (max-width:774px) {
+
+    body{
+        overflow-x: hidden;
+    }
+   
+    header{
+
+        .header_container{
+            padding: 2rem 2rem;
+            flex-direction: column;
+
+            .left_header{
+                width: 100%;
+                height: 100%;
+
+                h2{
+                    font-size: 1.5rem;
+
+                    span{
+                        font-size: 2rem;
+                    }
+                }
+
+                p{
+                    font-size: .7rem;
+                }
+
+                a{
+                    padding: .4rem .8rem;
+                    font-size: .8rem;
+                }
+            }
+
+            .right_header{
+                padding:1rem 0rem ;
+                width: 100%;
+                height: 100%;
+
+                img{
+                    width: 90%;
+                    height: 60%;
+                }
+            }
+        }
+    }
+
+
+// biography section
+
+
+.biography_section{
+
+    .bio_container{
+        flex-direction: column;
+
+        .bio_left{
+            order: 2;
+            padding: 2rem 0rem;
+            width: 100%;
+            height: 100%;
+
+            img{
+                width: 30rem;
+                height: 15rem;
+            }
+        }
+
+        .bio_right{
+            order: 1;
+            width: 100%;
+            height: 100%;
+
+            h1{
+                font-size: 1.2rem;
+            }
+
+            p{
+                font-size: .7rem;
+            }
+
+            a{
+                padding: .4rem .6rem;
+                font-size: .7rem;
+            }
+        }
+    }
+}
+
+// letest work
+
+.letest_work{
+
+    .work_container{
+        padding: 1rem 2rem;
+
+        .work_title{
+            font-size: 1rem;
+    }
+
+    .work_content{
+        flex-direction: column;
+
+        .workboth{
+            width: 100%;
+            height: inherit;
+            margin-bottom: 1rem;
+        }
+    }
+ }
+
+}    
+
+
+// footer work
+
+footer{
+
+    .footer_section{
+        padding: 1rem 2rem;
+
+        h2{
+            font-size: 1rem;
+            font-weight: 600;
+        } 
+
+        .footer_para{
+
+            P{
+                width: 100%;
+            }
+        }
+
+        .footer_email{
+            padding: 2rem 4rem;
+
+            h3{
+                font-size: .8rem;
+            }
+        }
+    }
+}
+
+}
